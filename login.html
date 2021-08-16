@@ -1,0 +1,78 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <title>Login Page | SDV-FLOOD</title>
+	  <link rel="stylesheet" type="text/css" href="login.css">
+	  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+ </head>
+
+<body>
+
+  <div id="card">
+    <div id="card-content">
+      <div id="card-title">
+        <h2>USER LOGIN</h2>
+      </div>
+
+      <form method="post" class="form" name="formlogin" action="home.html" onsubmit="return validateForm()">
+        <label for="user-name" style="padding-top:13px">
+            &nbsp;Username</label>
+
+        <input id="user-name" class="form-content" type="username" name="username" autocomplete="on" required />
+
+        <div class="form-border"></div>
+
+        <label for="user-password" style="padding-top:22px">&nbsp;Password</label>
+
+        <input id="user-password" class="form-content" type="password" name="password" autocomplete="on" required />
+
+        <div class="form-border"></div>
+
+        <input id="submit-btn" type="submit" name="submit" value="Login"/>
+
+        <a href="register.html" id="signup">Don't have account yet?</a>
+</div>
+      </form>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+
+<script>
+        function validateForm() {
+        
+                        if (document.forms["formlogin"]["user-name"].value == "") 
+                        {
+                            alert("Username Tidak Boleh Kosong");
+                            document.forms["formlogin"]["user-name"].focus();
+                            return false;
+                        }
+                        if (document.forms["formlogin"]["user-password"].value == "") 
+                        {
+                            alert("Password Tidak Boleh Kosong");
+                            document.forms["formlogin"]["user-password"].focus();
+                            return false;
+                        }
+
+                        if (document.forms["formlogin"]["user-name"].value == "Sheillaf123" && document.forms["formlogin"]["user-password"].value == "1234567")   
+                        {
+
+                    window.location.href="register.html";
+
+                  } else {
+                        alert ("Username atau Password salah")
+                      }
+                }
+  </script>
+  
+</html>

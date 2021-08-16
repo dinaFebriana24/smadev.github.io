@@ -1,0 +1,84 @@
+.page{	
+	position: relative;
+ 	background-image: url("images/2.jpg");
+ 	width: 100%;
+ 	background-size: cover;
+ 	background-attachment: fixed;
+ 	color: black;
+ 	opacity: 1;
+ 	padding-bottom: 30px;
+ 	margin: 0;
+ 	padding-top: 0;
+ 	height: 40rem;
+}
+
+a{
+	margin: 0px 0px 0px 0px;
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+a:hover{
+	color: white;
+}
+.logo{
+	width: 10%;
+	height: 10%;
+	margin: 3rem 0rem 0px 4rem;
+
+}
+label{
+	margin-left: 10%;
+	color:  #318784;
+	font-size: 30px;
+}
+.pes{
+	margin: 40px;
+}
+.row{
+	display: grid;
+	grid-template-columns: 55% 45%;
+	align-items: center;
+}
+.sdv{
+	margin-left: 20px;
+	color: #fff;
+	font-size: 100px;
+}
+p{
+	margin-left: 5px;
+	color: #fff;
+	font-size: 20px;
+	line-height: 20px;
+	text-align: center;
+}
+
+.card1{
+	background: linear-gradient(100deg, #318784 16.67%, #E2E2DF 100%);
+}
+.card2{
+	background: linear-gradient(100deg, #318784 16.67%, #E2E2DF 100%);
+}
+.card3{
+	background: linear-gradient(100deg, #318784 16.67%, #E2E2DF 100%);
+}
+.card4{
+	background: linear-gradient(100deg, #318784 16.67%, #E2E2DF 100%);
+}
+.card:hover{
+	transform: translateY(-10px);
+}
+.card{
+	width: 200px;
+	height: 230px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 10px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 40px 15px;
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.5;
+}

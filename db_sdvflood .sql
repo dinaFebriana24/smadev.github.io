@@ -74,8 +74,8 @@ INSERT INTO `lokasisungai` (`id_sungai`, `lokasi`, `sungai/kali`, `tinggi air`, 
 --
 
 CREATE TABLE `pengguna` (
+  `id_pengguna` int(11) NOT NULL,
   `nama` varchar(50) NOT NULL,
-  `id_pengguna` varchar(50) NOT NULL,
   `alamat` varchar(50) NOT NULL,
   `email` varchar(50) NOT NULL,
   `password` varchar(50) NOT NULL,
@@ -86,8 +86,8 @@ CREATE TABLE `pengguna` (
 -- Dumping data for table `pengguna`
 --
 
-INSERT INTO `pengguna` (`nama`, `id_pengguna`, `alamat`, `email`, `password`, `konfirmasi_pass`) VALUES
-('budi doremi', 'budi123', 'cikarang', 'budi@gmail.com', '123', '123');
+INSERT INTO `pengguna` (`id_pengguna`, `nama`, `alamat`, `email`, `password`, `konfirmasi_pass`) VALUES
+(1, 'budi doremi', 'cikarang', 'budi@gmail.com', '123', '123');
 
 --
 -- Indexes for dumped tables
@@ -110,7 +110,6 @@ ALTER TABLE `lokasisungai`
 --
 ALTER TABLE `pengguna`
   ADD PRIMARY KEY (`id_pengguna`);
-
 --
 -- AUTO_INCREMENT for dumped tables
 --
@@ -122,6 +121,9 @@ ALTER TABLE `berita`
   MODIFY `id_berita` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
+ALTER TABLE `pengguna`
+  MODIFY `id_pengguna` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
 -- AUTO_INCREMENT for table `lokasisungai`
 --
 ALTER TABLE `lokasisungai`

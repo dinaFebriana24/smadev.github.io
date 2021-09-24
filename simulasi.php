@@ -18,9 +18,6 @@
 	<a href="news.php" class="atas"> News </a>
 	<a href="simulasi.php" class="atas"> Simulation </a>
 	</div>
-	<div class="sign">
-	 <button onclick="pindah('profil.php')" class="pro"> <img src="images/pr.png" width="50px" height="40px"> </button>
-	</div>
 	</header>
 </nav>
 <div>

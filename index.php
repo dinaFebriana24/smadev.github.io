@@ -20,7 +20,7 @@
       <div class="col">
             <div class="card card1">
                   <a href="maps.php"><h3>Locations</h3></a>
-                  <p>Titik lokasi rawan terjadinya banjir</p>
+                  <p>Titik lokasi rawan terjadinya banjir di Kota Jakarta</p>
 
             </div>
             <div class="card card2">
@@ -33,8 +33,8 @@
                  
             </div>
             <div class="card card4">  
-             <a href="login.php"><h3>Login</h3></a>       
-                  <p>Silahkan login untuk mendapatkan notifikasi berita terbaru</p>
+             <a href=""><h3>Contact Us</h3></a>       
+                  <p>Silahkan hubungi di +6243546434 kami jika ada yang ingin disampaikan</p>
             </div>
 </div>
 </body>

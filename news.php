@@ -29,9 +29,6 @@ if(isset($_GET['lihat'])){
         <a href="news.php" class="atas"> News </a>
         <a href="simulasi.php" class="atas"> Simulation </a>
       </div>
-      <div class="sign">
-        <button class="log" onclick="pindah('profil.php')"> <img src="images/pr.png" width="50px" height="40px"> </button>
-      </div>
       </header>
 
       <!-- main content -->
@@ -47,7 +44,7 @@ if(isset($_GET['lihat'])){
 
             <h4> <?= $d['judul']?> </h4>
             <p> <?= $d['isi']?> </p>
-            <label>Komentar </label><input type="text" name="">
+           
           </div>
 
         </div>

@@ -30,12 +30,9 @@ if(isset($GET['sungai'])){
         <a href="news.php" class="atas"> News </a>
         <a href="simulasi.php" class="atas"> Simulation </a>
       </div>
-      <div class="sign">
-         <button class="log" onclick="pindah('profil.php')"> <img src="images/pr.png" width="50px" height="40px"> </button>
-      </div>
       </header>
 
-        <h2> Peta Sungai </h2>
+        <h2> Locations — Peta Sungai </h2>
         <div class="page">
         <table border="1">
         <table style="margin-left:auto;margin-right:auto" border="1">
